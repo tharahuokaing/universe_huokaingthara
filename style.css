@@ -1,0 +1,120 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Kantumruy Pro', sans-serif;
+    background-color: #0f111a;
+    color: #e1e1e6;
+    line-height: 1.8;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Hero Header */
+.hero-section {
+    background: linear-gradient(135deg, #1f2233 0%, #0b0c10 100%);
+    border-bottom: 3px solid #00d2ff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.brand-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, #00d2ff, #9900ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.brand-subtitle {
+    font-size: 1.1rem;
+    color: #a0a0ab;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Main Content Area */
+.main-content {
+    padding: 50px 0;
+}
+
+.language-section {
+    background: #171a26;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    margin-bottom: 30px;
+    border: 1px solid #232738;
+}
+
+.language-section h2 {
+    font-size: 1.8rem;
+    color: #00d2ff;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #232738;
+}
+
+.language-section p {
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+    color: #c5c5d2;
+}
+
+/* Rules and Guidelines Box */
+.rules-box {
+    background: #1f2333;
+    border-left: 4px solid #ff4757;
+    padding: 20px;
+    border-radius: 0 8px 8px 0;
+    margin-top: 25px;
+}
+
+.rules-box h3 {
+    font-size: 1.2rem;
+    color: #ff4757;
+    margin-bottom: 10px;
+}
+
+.rules-box p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+/* Divider */
+.divider {
+    border: none;
+    height: 1px;
+    background: #232738;
+    margin: 40px 0;
+}
+
+/* Footer */
+.footer {
+    background: #0b0c10;
+    text-align: center;
+    padding: 25px 0;
+    color: #71717a;
+    font-size: 0.9rem;
+    border-top: 1px solid #1f2233;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .brand-title {
+        font-size: 1.8rem;
+    }
+    .language-section {
+        padding: 20px;
+    }
+}
