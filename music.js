@@ -6,7 +6,7 @@
  * Audio Engine Configuration
  * Uses the local wedding audio asset path
  */
-const weddingAudioSrc = "marketing.mp3";
+const weddingAudioSrc = "phcum_tov_wat_na.mp3";
 
 // Create HTMLAudioElement instance
 const weddingAudio = new Audio(weddingAudioSrc);
